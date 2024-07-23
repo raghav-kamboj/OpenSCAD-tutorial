@@ -25,6 +25,8 @@ CAD has revolutionized the way things are designed because it allows designers t
 [openscad.org](http://openscad.org)
 
 Go to the site and click on downloads. After clicking the download button you will enter the site (https://openscad.org/downloads.html). Here you will get different files to download as per your system. If it's a Windows system, then scroll down to Windows; if Linux/Mac, then scroll to it and download the files and install them. After installing, you will have a simple as well as a little bit complex interface. Don't worry, we will make you familiar with the interface. So let's begin!
+![Alt text](https://drive.google.com/file/d/15I5UtJGUk6kgVfM2O6K3uVu_mybyD-RH/view?usp=drive_link)
+
 
 ### Interface Familiarisation:
 
