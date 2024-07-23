@@ -1,14 +1,15 @@
 
-# Tutorial of OpenSCAD
+# Tutorial of OpenSCAD: 
 
 ## Contents:
 1. Introduction about OpenSCAD.
 2. Downloading and interface familiarisation.
 3. Basic 3-D shapes introduction [Cube(), Sphere(), Cylinder()]
-4. Transform [Rotate(), Translate(), Scale(), Mirror()]
-5. Modifiers [Difference, Intersection, Union]
+4. Transformations [Rotate(), Translate(), Scale(), Mirror()]
+5. Modifiers [ Difference, Intersection, Union]
 6. Boolean operation
 7. Facets
+8.The mini project
 
 ## 1. Introduction about OpenSCAD:
 OpenSCAD is a software for creating 3D CAD models. It is different from other 3D modeling software in that it is script-based.
