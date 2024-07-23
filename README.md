@@ -4,10 +4,11 @@
 ## Contents:
 1. Introduction about OpenSCAD.
 2. Downloading and interface familiarisation.
-3. Basic 3-D shapes introduction [Cube(), Sphere(), Cylinder(), Polyhedron()]
+3. Basic 3-D shapes introduction [Cube(), Sphere(), Cylinder()]
 4. Transform [Rotate(), Translate(), Scale(), Mirror()]
 5. Modifiers [Difference, Intersection, Union]
-6. Facets
+6. Boolean operation
+7. Facets
 
 ## 1. Introduction about OpenSCAD:
 OpenSCAD is a software for creating 3D CAD models. It is different from other 3D modeling software in that it is script-based.
@@ -195,12 +196,59 @@ Facets (`$fn`) control the number of sides or segments used to approximate circu
 - **Default Value**: If not specified, the default value of `$fn` is typically 12.
 
 ### Example:
-```scad
-
-
+```s
 $fn = 50;
 sphere(r=20);
 ```
 This example sets `$fn` to 50 before creating a sphere with a radius of 20 units. The sphere will appear smoother due to the increased number of segments used to approximate its surface.
-```
 
+## 8. The Mini Project:
+### The Making of a Car
+
+```scad
+$fa = 1;
+$fs = 0.4;
+wheel_radius = 8;
+base_height = 8;
+top_height = 10;
+track = 40;
+body_roll = 0;
+wheels_turn = 20;
+
+rotate([body_roll, 0, 0]) {
+    // Car body base
+    cube([60, 20, base_height], center=true);
+    // Car body top
+    translate([5, 0, base_height/2 + top_height/2 - 0.001])
+    cube([30, 20, top_height], center=true);
+}
+
+// Front left wheel
+translate([-20, -track/2, 0])
+rotate([0, 0, wheels_turn])
+sphere(r=wheel_radius);
+
+// Front right wheel
+translate([-20, track/2, 0])
+rotate([0, 0, wheels_turn])
+sphere(r=wheel_radius);
+
+// Rear left wheel
+translate([20, -track/2, 0])
+rotate([0, 0, 0])
+sphere(r=wheel_radius);
+
+// Rear right wheel
+translate([20, track/2, 0])
+rotate([0, 0, 0])
+sphere(r=wheel_radius);
+
+// Front axle
+translate([-20, 0, 0])
+rotate([90, 0, 0])
+cylinder(h=track, r=2, center=true);
+
+// Rear axle
+translate([20, 0, 0])
+rotate([90, 0, 0])
+cylinder(h=track, r=2, center=true);
