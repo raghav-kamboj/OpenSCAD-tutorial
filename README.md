@@ -206,7 +206,7 @@ This example sets `$fn` to 50 before creating a sphere with a radius of 20 units
 ## 8. The Mini Project:
 ### The Making of a Car
 
-'''scad
+```scad
 $fa = 1;
 $fs = 0.4;
 wheel_radius = 8;
@@ -217,11 +217,11 @@ body_roll = 0;
 wheels_turn = 20;
 
 rotate([body_roll, 0, 0]) {
-    // Car body base
-    cube([60, 20, base_height], center=true);
-    // Car body top
-    translate([5, 0, base_height/2 + top_height/2 - 0.001])
-    cube([30, 20, top_height], center=true);
+// Car body base
+cube([60, 20, base_height], center=true);
+// Car body top
+translate([5, 0, base_height/2 + top_height/2 - 0.001])
+cube([30, 20, top_height], center=true);
 }
 
 // Front left wheel
@@ -253,4 +253,4 @@ cylinder(h=track, r=2, center=true);
 translate([20, 0, 0])
 rotate([90, 0, 0])
 cylinder(h=track, r=2, center=true);
-'''
+```
