@@ -1,6 +1,7 @@
 
 # Tutorial of OpenSCAD: 
-
+By Raghav & Warjot kaur
+---
 ## Contents:
 1. Introduction about OpenSCAD.
 2. Downloading and interface familiarisation.
