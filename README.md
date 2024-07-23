@@ -9,7 +9,7 @@
 5. Modifiers [ Difference, Intersection, Union]
 6. Boolean operation
 7. Facets
-8.The mini project
+8. The mini project
 
 ## 1. Introduction about OpenSCAD:
 OpenSCAD is a software for creating 3D CAD models. It is different from other 3D modeling software in that it is script-based.
