@@ -70,7 +70,9 @@ Now open the software and write the code, placing the numeric values where requi
 ```scad
 cylinder(r=10, h=10);
 ```
-!(pic3)[https://i.pinimg.com/originals/a4/6b/23/a46b23dcc5eb3db30290023c808b895e.jpg]
+
+![pic3](https://i.pinimg.com/originals/a4/6b/23/a46b23dcc5eb3db30290023c808b895e.jpg)
+
 Congratulations! You made your first 3D figure.
 
 ### A little advanced syntax:
