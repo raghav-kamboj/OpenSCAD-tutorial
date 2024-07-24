@@ -271,7 +271,7 @@ mold();
 
 ```
 
-[Pic7](https://i.pinimg.com/736x/64/b2/11/64b2117bcb95fc7eda920f6e81b16c30.jpg)
+![Pic7](https://i.pinimg.com/736x/64/b2/11/64b2117bcb95fc7eda920f6e81b16c30.jpg)
 
 ---
 
