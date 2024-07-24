@@ -243,6 +243,35 @@ difference() {
 ![pic5](https://i.pinimg.com/736x/02/53/51/025351094cd4a17959aa89241bd40175.jpg)
 
 
+### 2. Making of chocolate mold:
+
+```scad
+// Chocolate Mold Parameters
+mold_thickness = 5; // Thickness of the mold walls
+cavity_depth = 10; // Depth of the cavity
+mold_width = 50;   // Width of the mold
+mold_height = 50;  // Height of the mold
+cavity_width = 30; // Width of the cavity
+cavity_height = 30; // Height of the cavity
+
+// Mold Outline
+module mold() {
+    difference() {
+        // Outer mold shape
+        cube([mold_width, mold_height, mold_thickness]);
+        
+        // Cavity
+        translate([ (mold_width - cavity_width) / 2, (mold_height - cavity_height) / 2, mold_thickness - cavity_depth ])
+        cube([cavity_width, cavity_height, cavity_depth]);
+    }
+}
+
+// Render the mold
+mold();
+
+```
+
+[Pic7](https://i.pinimg.com/736x/64/b2/11/64b2117bcb95fc7eda920f6e81b16c30.jpg)
 
 ---
 
