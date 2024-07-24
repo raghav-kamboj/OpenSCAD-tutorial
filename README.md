@@ -1,6 +1,6 @@
 
 # Tutorial of OpenSCAD: 
-By Raghav & Warjot kaur
+By Raghav Kamboj & Warjot kaur
 ---
 ## Contents:
 1. Introduction about OpenSCAD.
