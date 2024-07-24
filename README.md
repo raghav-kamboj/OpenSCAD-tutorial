@@ -215,7 +215,7 @@ This example sets `$fn` to 50 before creating a sphere with a radius of 20 units
 
 ## 1. Making of a bishop chess piece:
 
-- ![Credit of the project](https://cubehero.com/2013/11/19/know-only-10-things-to-be-dangerous-in-openscad/#:~:text=Applying%20our%20new%20skills%3A%20bishop%20chess%20piece)
+- [Credit of the project](https://cubehero.com/2013/11/19/know-only-10-things-to-be-dangerous-in-openscad/#:~:text=Applying%20our%20new%20skills%3A%20bishop%20chess%20piece)
 
 
 ```scad
@@ -259,7 +259,7 @@ union() {
 
 ### 2. The Making of a Car
 
-- ![Credit of the project](https://en.wikibooks.org/wiki/OpenSCAD_Tutorial/Chapter_3#:~:text=Exercise,of%20wheels_turn%20variable%3F)
+- [Credit of the project](https://en.wikibooks.org/wiki/OpenSCAD_Tutorial/Chapter_3#:~:text=Exercise,of%20wheels_turn%20variable%3F)
 
 ```scad
 $fa = 1;
