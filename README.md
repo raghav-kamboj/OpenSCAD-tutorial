@@ -213,7 +213,7 @@ This example sets `$fn` to 50 before creating a sphere with a radius of 20 units
 
 ## 8. The Mini Project:
 
-## 1. Making of a bishop chess piece:
+### 1. Making of a bishop chess piece:
 
 - [Credit of the project](https://cubehero.com/2013/11/19/know-only-10-things-to-be-dangerous-in-openscad/#:~:text=Applying%20our%20new%20skills%3A%20bishop%20chess%20piece)
 
