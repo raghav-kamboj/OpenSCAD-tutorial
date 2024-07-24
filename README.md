@@ -39,7 +39,9 @@ Go to the site and click on downloads. After clicking the download button you wi
 
 So, imagine writing instructions in a notebook (text editor) to build a toy, and as you write, you can look through a magic window (viewing area) to see how your toy is coming along. If something doesn't work right, a friendly helper (console area) tells you what needs fixing. That's how OpenSCAD helps you create cool 3D models with just words and a window!
 
+
 ![pic2](https://i.pinimg.com/736x/af/77/28/af7728b9aaa0241e914c15583beb89ed.jpg)
+
 
 ## 3. Basic 3-D Shapes:
 
